@@ -35,6 +35,7 @@ def turn(board)
   end
 end
 
+# plays/loops through game 9 times
 def play(board)
 turn = 0
   until turn == 9
